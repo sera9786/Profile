@@ -10,15 +10,15 @@
 
       <div class=" bottom-section">
         <div class="social-media">
-          <a href="https://www.facebook.com/profile.php?id=100010910586326"
-            ><i class="fab fa-facebook"></i
-          ></a>
-          <a href="" onclick="alert('인스타가 없다')"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a href="#" onclick="alert('연락처 : 010-7501-1458')"
-            ><i class="fab fa-link"></i
-          ></a>
+          <a href="https://www.facebook.com/profile.php?id=100010910586326">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="" onclick="alert('인스타가 없다')">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" onclick="alert('연락처 : 010-7501-1458')">
+            <i class="fab fa-link"></i>
+          </a>
         </div>
 
         <div class="">
