@@ -20,17 +20,35 @@
             ><i class="fab fa-link"></i
           ></a>
         </div>
+
         <div class="">
-          <div>정보보안과</div>
+          <div>{{major}}</div>
           <div class="border">|</div>
-          <div>프론트</div>
+          <div>{{field}}</div>
           <div class="border">|</div>
-          <div>시바견</div>
+          <div>{{persona}}</div>
         </div>
       </div>
+      
       <div class="info">made by sera with reference to darkcode</div>
     </div>
 </template>
+
+<script>
+export default {
+    data() { 
+        return {
+            name: "임헌우",
+            faceBook:"https://www.facebook.com/profile.php?id=100010910586326",
+            email:"hunwoo0505@gmail.com",
+            call:"010-7501-1458",
+            major:"정보보안",
+            field:"frontend",
+            persona:"시바견"
+        }
+    }
+}
+</script>
 
 <style>
 * {
