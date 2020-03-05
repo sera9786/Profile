@@ -11,13 +11,13 @@
       <div class=" bottom-section">
         <div class="social-media">
           <a href="https://www.facebook.com/profile.php?id=100010910586326">
-            <i class="fab fa-facebook"></i>
+            <img src="../assets/facebook.png">
           </a>
-          <a href="" onclick="alert('인스타가 없다')">
-            <i class="fab fa-instagram"></i>
+           <a onclick="alert('저의 이메일은 hunwoo0505@gmail.com 입니다.')">
+            <img src="../assets/email.png">
           </a>
-          <a href="#" onclick="alert('연락처 : 010-7501-1458')">
-            <i class="fab fa-link"></i>
+           <a onclick="alert('저의 전화번호는 010-7501-1458 입니다.')">
+            <img src="../assets/phone.png">
           </a>
         </div>
 
