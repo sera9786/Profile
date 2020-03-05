@@ -50,6 +50,9 @@ export default {
     methods:{
       emailInfo: ()=>{
           alert("저의 email은" + this.email + "입니다.")
+      },
+      callInfo: ()=>{
+        alert("저의 전화번호는" + this.call + "입니다");
       }
     }
 }
