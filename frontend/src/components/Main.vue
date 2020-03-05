@@ -10,14 +10,14 @@
 
       <div class=" bottom-section">
         <div class="social-media">
-          <a href="https://www.facebook.com/profile.php?id=100010910586326">
+          <a v-bind:href="faceBook">
             <img src="../assets/facebook.png">
           </a>
-           <a onclick="alert('저의 이메일은 hunwoo0505@gmail.com 입니다.')">
+           <a onclick="alert('저의 email은 hunwoo0505@gmail.com 입니다')">
             <img src="../assets/email.png">
           </a>
            <a onclick="alert('저의 전화번호는 010-7501-1458 입니다.')">
-            <img src="../assets/phone.png">
+            <img src="../assets/phone.png"> 
           </a>
         </div>
 
@@ -46,6 +46,11 @@ export default {
             field:"frontend",
             persona:"시바견"
         }
+    },
+    methods:{
+      emailInfo: ()=>{
+          alert("저의 email은" + this.email + "입니다.")
+      }
     }
 }
 </script>
