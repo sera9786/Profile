@@ -7,7 +7,7 @@
   }
   
   body {
-    background: url(bg.jpg) no-repeat center;
+    background: url(../assets/bg.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -72,7 +72,7 @@
   }
   
   .bottom-section {
-    background: #ffffff;
+    background: #f1f1f1;
     padding: 60px 40px;
     position: relative;
     display: flex;
@@ -135,4 +135,3 @@
     color: #bbb;
     font-size: 12px;
   }
-  
