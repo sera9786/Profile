@@ -86,6 +86,11 @@
     color: #bbb;
     margin: 0 30px;
   }
+
+  .text{
+    text-align: center;
+    display: inline-flex;
+  }
   
   .social-media {
     position: absolute;

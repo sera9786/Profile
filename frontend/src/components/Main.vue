@@ -21,7 +21,7 @@
           </a>
         </div>
 
-        <div class="">
+        <div class="text">
           <div>{{major}}</div>
           <div class="border">|</div>
           <div>{{field}}</div>
