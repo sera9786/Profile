@@ -48,12 +48,12 @@ export default {
             showPersona:this.persona,
         }
     },
-    methods:{
-      emailInfo: ()=>{
-        alert("저의 email은" + this.showEmail + "입니다.")
+    methods: { 
+      callInfo: function(){
+        return alert("저의 전화번호는" + this.showCall + "입니다."); 
       },
-      callInfo: ()=>{
-        alert("저의 전화번호는" + this.showCall + "입니다");
+      emailInfo: function(){
+        return alert("저의 이메일은" + this.showEmail + "입니다."); 
       }
     }
 }
@@ -62,4 +62,3 @@ export default {
 <style src="../assets/Style.css"></style>
 
 페이스북 href 
-email,call 함수 실행
