@@ -61,4 +61,5 @@ export default {
 
 <style src="../assets/Style.css"></style>
 
-페이스북 href 
+페이스북 href
+배경 이미지
