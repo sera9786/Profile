@@ -1,19 +1,22 @@
 <template>
-    <profile v-bind="jsondata"/>
+  <div>
+    <profile v-bind="hunwoo"/>
+    <profile v-bind="user"/>
+  </div>
 </template>
 
 <script> 
 import Profile from "./Profile"
+
+import hunwoo from "../assets/Data/sera/hunwoo.json"
+import user from "../assets/Data/ex/user.json"
+import haerin from "../assets/Data/haerin/haerin.json"
 export default {
   data(){
     return{
-      jsondata : { name: "임헌우",
-            faceBook:"https://www.facebook.com/profile.php?id=100010910586326",
-            email:"hunwoo0505@gmail.com",
-            call:"010-7501-1458",
-            major:"정보보안",
-            field:"frontend",
-            persona:"시바견"}
+      hunwoo,
+      user,
+      haerin
     }
   },
   components:{

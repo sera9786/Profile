@@ -36,11 +36,11 @@
 
 <script>
 export default {
-    props:['name', 'facebook', 'email', 'call', 'major', 'field', 'persona'],
+    props:['name', 'a', 'email', 'call', 'major', 'field', 'persona'],
     data() { 
         return {
             showName:this.name,
-            showFacebook:this.facebook,
+            showFacebook:this.a,
             showEmail:this.email,
             showCall:this.call,
             showMajor:this.major,
