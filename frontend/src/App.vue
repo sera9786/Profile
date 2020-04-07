@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <Main></Main>
+      <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Main from './components/Main.vue'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+import router from './routes/index'
 
 export default {
-  name: 'App',
-  components: {
-    Main
-  }
+  name:'app',
+  router
 }
 </script>
+  
