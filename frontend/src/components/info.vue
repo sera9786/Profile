@@ -1,24 +1,23 @@
 <template>
     <div class="about-section">
         <div class="inner-container">
-            <h1>about flosvia</h1>
+            <h1>플로스비아</h1>
             <p class="text">
-                우리는 이런 동아리얌. 쩌고어쩌고 저쩌고어쩌고 저쩌고어쩌고 저쩌고어쩌고
+                ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
             </p>
             <div class="skills">
                 <span>동아리원</span>
                 <span>분야</span>
-                <span>원하는 사람</span>
+                <span>원하는사람</span>
             </div>
         </div>
     </div>
 </template>
 <style>
-
 *{
     margin: 0;
     padding: 0;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans",sans-serif;
     box-sizing: border-box;
 }
 
@@ -27,27 +26,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#f1f1f1;
-        background: url(../assets/bg.jpg) no-repeat left; 
-
+    background-color: #f1f1f1;
 }
 
 .about-section{
-    background-size:100%;
+    background: url(../assets/bg.jpg) no-repeat left;
+    background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
 }
 
-.innner-container{
-    width: 100px;
+.inner-container{
+    width: 55%;
     float: right;
-    overflow: hidden;
-    background-color: #fdfdfd; 
+    background-color: #fdfdfd;
     padding: 150px;
 }
 
-.innner-container h1{
+.inner-container h1{
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
@@ -65,6 +62,31 @@ body{
     display: flex;
     justify-content: space-between;
     font-weight: 700;
-    font-size: 13pxs;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
 }
 </style>
