@@ -3,6 +3,7 @@
         <div class="inner-container">
             <h1>플로스비아</h1>
             <p class="text">
+        
                         </p>
             <div class="skills">
                 <span>동아리원</span>
