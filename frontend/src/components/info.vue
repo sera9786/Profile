@@ -3,8 +3,7 @@
         <div class="inner-container">
             <h1>플로스비아</h1>
             <p class="text">
-                ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
-            </p>
+                        </p>
             <div class="skills">
                 <span>동아리원</span>
                 <span>분야</span>
@@ -65,28 +64,4 @@ body{
     font-size: 13px;
 }
 
-@media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
-    }
-}
-
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60px;
-    }
-}
 </style>
